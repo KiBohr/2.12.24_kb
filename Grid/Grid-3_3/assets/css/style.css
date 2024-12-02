@@ -1,0 +1,165 @@
+@font-face {
+    font-family: cg;
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
+
+:root{
+    --dark-grey:#333;
+    --light-grey:#737B80;
+    --bg-color:#E9E9E0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: cg, Arial, Helvetica, sans-serif;
+    margin: 1vh 1vw;
+    background-color: var(--bg-color);
+    color: var(--dark-grey);
+    margin: 1vh 1vw;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+body{
+    height: 100vh;
+}
+
+/*: header */
+
+header{
+    display: flex;
+    align-items: stretch;
+    justify-items: center;
+    flex-direction: column;
+    border-bottom: solid 3px var(--dark-grey);
+    margin-bottom: 1vh;
+}
+
+nav{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 1vw;
+    /* margin-bottom: 1vh; */
+}
+
+nav a{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+h1{
+    font-size: 4.5rem;
+    border-bottom: solid 3px var(--dark-grey);
+    /* margin-bottom: 1vh; */
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+/* :main */
+
+.all{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 3.5rem;
+    padding-left: 5vw;
+    margin-bottom: 1vh;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+
+.main-text1{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    width: 20%;
+}
+.main-text2{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    width: 20%;
+}
+
+h3{
+    font-size: 2.4rem ;
+    font-weight: bold;
+}
+
+.kitchen{
+    width: 40%;
+    max-width: 450px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+aside h4{
+    font-size: 1.8rem;
+    margin-bottom: 1vh;
+}
+
+aside div{
+    text-align: center;
+    border: solid var(--dark-grey) 3px;
+    font-size:5rem ;
+    padding:2vh 1vw ;
+    margin-bottom: 2vh;
+    max-width: 220px;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid var(--dark-grey) 3px;
+    padding:2vh 1vw ;
+    margin-bottom: 2vh;
+    max-width: 220px;
+}
+
+.add p{
+    font-size: 1.3rem;
+}
+
+aside img{
+    border: solid var(--dark-grey) 3px;
+    padding:2vh 2vw ;
+    margin-bottom: 2vh;
+    max-width: 220px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 10px;
+    margin: 2vh 2vw;
+    background-color: whitesmoke;
+}
+
+img{
+    width:100%
+}
+
+h1{
+    font-size: 20rem;
+    color:black;
+}
+
+
+.galery{
+    display: grid;
+    grid-template-areas:
+    "eins zwei drei"
+    "vier fünf sechs"
+    "sieben acht neun"
+    "zehn elf zwölf";
+    gap: 4px;
+}
+
+
+
+img:hover{
+    opacity: 80%;
+
+}

@@ -1,0 +1,130 @@
+
+/* : main styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1vh 1vw;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.grid-parent{
+    display: grid;
+    grid-template-areas: 
+    "red red red red"
+    "blue blue green green"
+    "blue blue purple purple1";
+    gap: 6px;
+    height: 20vh;
+    border-radius: 15px;
+    margin-bottom: 10vh;
+}
+
+.grid-item-1{
+    background-color:red;
+    grid-area:red;
+    color: aliceblue;
+    font-size: 3rem;
+    padding: 1vh 1vw;
+}
+
+.grid-item-2{
+    background-color:blue;
+    grid-area: blue;
+    color: aliceblue;
+    font-size: 3rem;
+    padding: 1vh 1vw;
+}
+
+.grid-item-3{
+    background-color:green;
+    grid-area: green;
+    color: aliceblue;
+    font-size: 3rem;
+    padding: 1vh 1vw;
+}
+
+.grid-item-4{
+    background-color:purple;
+    grid-area:purple;
+    color: aliceblue;
+    font-size: 3rem;
+    padding: 1vh 1vw;
+}
+
+.grid-item-5{
+    background-color: purple;
+    grid-area: purple1;
+    color: aliceblue;
+    font-size: 3rem;
+    padding: 1vh 1vw;
+}
+
+.grid-parent-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr 100px 250px;
+    gap:10px;
+    margin-bottom: 10vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color:lavender;
+    background-color:darksalmon;
+    grid-area: 1 / 1 / 1 / 5;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color:lavender;
+    background-color:rgb(124, 233, 122);
+    grid-area: 2 / 1 / 2 / 5;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color:lavender;
+    background-color:rgb(233, 122, 196);
+    grid-area: 3 / 1 / 5 / 5;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color:lavender;
+    background-color:rgb(122, 233, 233);
+    grid-area: 6 / 1 / 5 / 5;
+}
+
+
+
+
+
+
+
+
+
+
+
